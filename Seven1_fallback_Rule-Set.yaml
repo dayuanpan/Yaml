@@ -234,7 +234,7 @@ rule-providers:
   paypal_domain:     { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.list"}
   geolocation-!cn:   { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.list"}
   cn_domain:         { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.list"}
-  add_direct_domain: { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/dayuanpan/Yaml/refs/heads/main/rules/Seven1_Direct_Domain.list"}
+  add_direct_domain: { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/dayuanpan/Yaml/refs/heads/main/rules/Seven1_Direct_Domain.yaml"}
 
   # IP规则
   private_ip:        { <<: *Anchor_IP, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.list"}
